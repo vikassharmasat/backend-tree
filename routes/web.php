@@ -18,5 +18,5 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::post('/node', 'NodeManageController@createNode');
+Route::post('/create-node', 'NodeManageController@createNode');
 Route::post('/fetch-node', 'NodeManageController@fetchNode');
